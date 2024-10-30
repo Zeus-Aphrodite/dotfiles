@@ -68,7 +68,7 @@ config.font = wezterm.font_with_fallback {
   'Cascadia Mono',
   'JetBrains Mono',
 }
-
+-- macOs and Linux settings update 2024:10:30
 -- macOS and Linux settings
 if os == 'macOS' or os == 'linux' then
   config.font_size = 10.0
@@ -162,6 +162,7 @@ config.keys = {
   { key = '_', mods = 'CTRL|SHIFT', action = 'DecreaseFontSize' },
   { key = 'Backspace', mods = 'CTRL|SHIFT', action = 'ResetFontSize' },
 
+  --update time 10:30 
   --
   { key = 'F5', action = 'ReloadConfiguration' },
 }
